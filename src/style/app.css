@@ -15,7 +15,8 @@
     --color-code-error: #ee690a;
     --color-sub-title: #2c8a83;
     --color-sucsess: #22C55E;
-    --color-warning: red;
+    --color-warning: #ff0000;
+    --color-warning-error: #d63d3d;
 
     --font-family-body: 'Dancing Script', cursive;
     --font-family-content: 'Barlow Condensed', sans-serif;
@@ -119,7 +120,7 @@ button {
     gap: 10px;
 }
 
-.code-list .code-items a {
+.code-list .code-items {
     font-size: 1.2rem;
     font-weight: 700;
     color: var(--color-code-error);
@@ -159,6 +160,10 @@ button {
 
 .code-list .other {
     color: var(--color-utilitary);
+}
+
+.code-list .error {
+    color: var(--color-warning-error);
 }
 
 .code-footer {
